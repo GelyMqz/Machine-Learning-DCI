@@ -5,6 +5,24 @@ Created on Tue Aug 15 11:42:06 2023
 @author: Angie
 """
 
+"""
+I N S T R U C C I O N E S:
+El algoritmo k-means es empleado para agrupación (clustering) de vectores de características no etiquetados.
+Al no tener etiquetas para el entrenamiento, se considera un algoritmo de aprendizaje No Supervisado.
+El siguiente video muestra el proceso iterativo que sigue el método. En general se puede resumir en los siguientes pasos:
+
+1. Definir un número inicial k de centroides de grupo
+
+2. Calcular las distancias de cada uno de los k centroides hacia todos los puntos del dataset. Si el tamaño del dataset es N,
+el número de distancias calculadas será N*k en caso de que los centroides sean puntos distintos del dataset o (N-k) * k
+si los centroides son algunos de los mismos puntos del dataset.
+
+3. Asignar cada elemento del dataset al grupo correspondiente a la distancia mínima con su centroide. 
+
+4. Recalcular los centroides y repetir desde el paso 2 hasta cumplir el número de iteraciones deseado.
+
+"""
+
 import random
 import numpy as np
 import matplotlib.pyplot as plt
