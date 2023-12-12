@@ -6,6 +6,17 @@ Due to Tue Sep 08 17:00:00 2023
 @author: Norma Angélica Márquez Sulca
 NUA:427278
 Materia: Temas Selectos de Física: Machine Learning
+
+
+1 Mediante la función make_blobs del paquete sklearn.datasets, genere 250 puntos divididos en 3 clases con desviación estándar de 0.5. Utilize un random_state = 209 para que podamos comparar resultados. Guarde las coordenadas de los primeros 200 puntos en una variable llamada training_data y los indicadores de clase en una variable llamada training_labels. Grafique un scatter plot usando un color distinto para los puntos de entrenamiento en cada una de las 3 clases. Los 50 puntos restantes los guardará en una variable llamada test_data y sus indicadores de clase en una variable llamada test_labels
+
+2.Implemente el algoritmo k-NN siguiendo el pseudocódigo visto en clase y usando una distancia Euclidiana.
+
+3. Entrene su clasificador k-NN, con k=5 y training_data y grafique en el mismo scatter plot del paso 1 las predicciones de este clasificador sobre el conjunto test_data.
+
+4 Muestre en pantalla el reporte de clasificación obtenido con su versión de k-NN. Para el reporte utilice el objeto descrito en el siguiente enlace https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
+
+5. Utilice el algoritmo k-NN implementado en sklearn y repita los pasos 3 y 4 con esta versión de clasificador. Para ambas versiones utilice una k=5. Grafique un nuevo scatter plot con los datos de entrenamiento y predicciones de clase con esta el k-NN de sklearn. Muestre en pantalla el reporte de clasificación y compare las salidas de ambas versiones.
 """
 
 #Importamos las librerías
