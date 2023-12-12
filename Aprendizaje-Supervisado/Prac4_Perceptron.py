@@ -3,6 +3,14 @@
 """
 @author: Norma Angélica Márquez Sulca
 NUA: 427278
+
+1. Construya un dataset artificial de 40 puntos usando el método make_blobs de sklearn.datasets. El dataset tendrá como centros los 4 puntos de valores posibles a una compuerta lógica AND. Esto es 
+
+centers = [(0, 0), (0, 1), (1, 0), (1,1)]. Use una media  de 0 y desviación estándar de 0.1 en cada cluster. El dataset deberá ser similar al que se muestra en la figura adjunta.
+
+2. Implemente una Neurona de McCulloch-Pitts que reciba dos valores de entrada (sin bias) y utilice una función de activación de tipo escalón (0 o 1). Entrene la neurona usando el algoritmo Perceptron y el dataset de 40 puntos.
+
+3. Genere un scatter plot con el dataset y la recta (hiperplano) que genera la Neurona después de su entrenamiento. Imprima en un PDF su scatter plot con el hiperplano y los puntos pintados de un color asociado a la clase que asignó el clasificador, los pesos finales de la neurona y un reporte de clasificación con matriz de confusión para evaluar el rendimiento de la neurona.
 """
 
 import numpy as np
