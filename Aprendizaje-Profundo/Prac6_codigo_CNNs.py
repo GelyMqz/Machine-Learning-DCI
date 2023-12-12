@@ -2,6 +2,12 @@
 """
 
 @author: Norma Angélica Márquez Sulca
+
+ Retome el código implementado en clase sobre la CNN - VGG16 (disponibles en archivo adjunto).
+
+2. Usando la imagen bird.jpg, muestre 64 de los filtros que se obtienen con esta red pre-entrenada, al final de cada uno de los 5 bloques convolucionales de la arquitectura. Guarde cada imagen de los filtros resultantes y agréguela a un documento en PDF (cada imagen en una página separada).
+
+3. Repita el paso 2 reemplazando la imagen bird.jpg por una imagen distinta del tema de su elección. Añada al PDF la imagen que seleccionó y el resultado de los filtros en cada capa convolucional.
 """
 
 # -*- coding: utf-8 -*-
