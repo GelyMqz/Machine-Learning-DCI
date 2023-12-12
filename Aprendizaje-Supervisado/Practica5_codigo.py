@@ -5,6 +5,26 @@ Created on Tue Oct 31 12:35:28 2023
 @author: Norma Angélica Márquez Sulca
 NUA: 427278
 Materia: Temas Selectos de Física: Machine Learning
+
+En esta práctica, resolverá 4 datasets con los clasificadores analizados en clase (k-NN, SVC, Perceptron y MLP). Los 4 datasets contienen problemas de clasificación de dos clases de puntos en 2 dimensiones.
+
+El dataset classifiers1 consta de 500 registros y es linealmente separable.
+
+El dataset classifiers2 consta de 350 vectores de características distribuidos en dos circulos concéntricos (anillo)
+
+El dataset classifiers3 consta de 10000 puntos distribuidos en forma de lunas
+
+El cuarto dataset lo deberá generar usted siguiendo las notas y códigos analizados en clase. El dataset constará de 4000 puntos, 1000 para cada vértice de un XOR.
+
+Se recomienda el estudio previo del script "classifier comparison" de sklearn para la elaboración de su gráfica comparativa. Puede apoyarse en los scripts proporcionados en la sección de materiales o en otras implementaciones disponibles en internet.
+
+https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html#sphx-glr-auto-examples-classification-plot-classifier-comparison-py
+
+1.  Resuelva los 4 problemas de clasificación (lineal separable, círculos concéntricos, lunas y XOR)  con los 4 clasificadores estudiados en clase. Utilice un valor de k =5 para el clasificador k-NN, los hiperparámetros C=10 y gamma = 0.1 para una SVC con kernel RBF y una tasa de aprendizaje de 0.3 para el Perceptron con 10 épocas y función de activación sigmoide. Para el MLP utilice los mismos hiperparámetros que el perceptron, en una arquitectura 2-2-1 (2 neuronas en capa de entrada, 2 en capa oculta y 1 en la capa de salida)
+
+2. Genere una figura donde muestre las fronteras de decisión de los 4 clasificadores resolviendo los 4 datasets (puede apoyarse en el script anterior para la generación de la figura). Llame a esta figura fronteras.jpeg o png
+
+3. Utilice una partición de dataset 80/20 para validar sus clasificadores (80% de entrenamiento y 20% de prueba) y reporte en una tabla los accuracies obtenidos por cada clasificador para cada uno de los 4 datasets. Guarde esta tabla como una imagen llamada accuracies.jpeg o .png
 """
 
 #Bibliotecas
