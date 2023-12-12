@@ -6,6 +6,14 @@ Due to Tue Aug 26 17:00:00 2023
 @author: Norma Angélica Márquez Sulca
 NUA:427278
 Materia: Temas Selectos de Física: Machine Learning
+
+Para implementar el algoritmo de Análisis de Componentes Principales (PCA) en su versión de vectores propios de la matriz de covarianza de un dataset dado, se requieren algunos conceptos previos de Álgebra Lineal, Cálculo Vectorial y Probabilidad y Estadística. En esta práctica realizará lo siguiente:
+
+1. Complemente el código (toy-PCA, disponible en archivo adjunto) analizado en clase, para que proyecte los puntos del dataset D sobre el eigenvector principal (vector negro en la gráfica). Esto podrá hacerlo preferentemente con operaciones matriciales entre D y el eigenvector 1. 
+
+2. Grafique los puntos proyectados sobre el eigenvector principal sobre el scatter plot de la primera figura del código. Utilice un color y tamaño de marcador apropiado para identificar facilmente los puntos proyectados.
+
+3. Compare sus proyecciones con las obtenidas mediante la implementación de PCA del paquete sklearn
 """
 
 import numpy as np 
